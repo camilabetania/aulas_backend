@@ -12,8 +12,8 @@ $p2 = [
     "nome" => "Nintendo, Console, Nintendo Switch, Nacional, V2, Portátil e Doméstico,
     Bateria de até 9 Horas, Inclui Joy-Con com Suporte e Alças, 1 ano de Garantia, Azul Neon e Vermelho Neon",
     "foto" => "https://m.media-amazon.com/images/I/71s9BjamD+L._AC_SX342_SY445_.jpg",
-    "preço" => 50.00,
-    "descrição" => "Sobre este item     JOGUE COMO PREFERIR. O Nintendo Switch foi desenvolvido para fazer parte da sua vida, transformando-se de um console doméstico em um console portátil num piscar de olhos     MODO TV. Coloque o seu Nintendo Switch na base do console para se divertir jogando em sua televisão.     MODO SEMIPORTÁTIL. Abra o suporte para compartilhar a tela do seu Nintendo Switch – e a diversão – em jogos multijogador.     MODO PORTÁTIL. Remova o console da base e jogue com os controles joy-con encaixados para aproveitar a diversão do seu Nintendo, de onde estiver.     ADAPTE-SE À DIVERSÃO. Os controles joy-con incluídos com o seu Nintendo Switch permitem total flexibilidade nos jogos.",
+    "preco" => 50.00,
+    "descricao" => "Sobre este item     JOGUE COMO PREFERIR. O Nintendo Switch foi desenvolvido para fazer parte da sua vida, transformando-se de um console doméstico em um console portátil num piscar de olhos     MODO TV. Coloque o seu Nintendo Switch na base do console para se divertir jogando em sua televisão.     MODO SEMIPORTÁTIL. Abra o suporte para compartilhar a tela do seu Nintendo Switch – e a diversão – em jogos multijogador.     MODO PORTÁTIL. Remova o console da base e jogue com os controles joy-con encaixados para aproveitar a diversão do seu Nintendo, de onde estiver.     ADAPTE-SE À DIVERSÃO. Os controles joy-con incluídos com o seu Nintendo Switch permitem total flexibilidade nos jogos.",
     "categoria" => "consoles",
 
 ];
@@ -36,7 +36,7 @@ $p3 = [
 
 $p5=[
       "nome"=>"A dança do universo: Dos Mitos de Criação ao Big-Bang",
-      "foto"=>"https://www.amazon.com.br/dan%C3%A7a-universo-Mitos-Cria%C3%A7%C3%A3o-Big-Bang-ebook/dp/B009WWEOMC?pf_rd_r=S9T3JBYYEFTQ8YWWVMK4&pf_rd_t=Events&pf_rd_i=deals&pf_rd_p=748bccb2-940c-427d-ac86-b2bfd1a04820&pf_rd_s=slot-16&ref=dlx_deals_gd_dcl_img_1_77eecb34_dt_sl16_20",
+      "foto"=>"https://m.media-amazon.com/images/I/51VwpPoaMrL.jpg",
       "preço"=>11.96,
       "descricao"=>"O que aconteceu no momento da Criação? Houve um minuto determinado em que o Universo que nos rodeia surgiu? Essas são questões tão antigas como a própria humanidade. Muitos procuram a resposta nos mitos e na religião. Outros nas teorias científicas. Em A dança do Universo, o físico Marcelo Gleiser mostra em linguagem clara que esses dois enfoques não são tão distantes quanto imaginamos, apresentando versões de diversas culturas para o mistério da Criação, até desembocar na explicação da ciência moderna para o surgimento do Universo.
       Prêmio Jabuti 1998 de Melhor Ensaio e Biografia",
@@ -140,7 +140,7 @@ $p16 = [
 
 $p17 = [
     "nome" => "Cerveja",
-    "foto" => "https://down-br.img.susercontent.com/file/sg-11134201-22110-vmm1jxstfijve5);",
+    "foto" => "https://down-br.img.susercontent.com/file/sg-11134201-22110-vmm1jxstfijve5",
     "preco" => 33.47,
     "descricao" => "Calças      UNISSEX            FEITO É POLIÉSTER TECTEL     POSSUI ELÁSTICO NA CINTURA E NAS BARRAS PARA AJUSTAR MELHOR AO CORPO, VESTINDO MELHOR DIVERSOS TAMANHOS, TECIDO DE ALTA QUALIDADE.          TAMANHOS     PP VESTE DO 34 AO 38     P VESTE DO 36 AO 40     M VESTE DO 38 AO 42     G VESTE DO 40 AO 44     GG VESTE DO 42 AO 46          GG comprimento 111 cm cintura 95 cm     G comprimento 110 cm cintura 94 cm     M comprimento 107 cm cintura 92 cm     P comprimento 105 cm cintura 90 cm     PP comprimento 102 cm cintura 88 cm          Tamanho 16 anos Comprimento 97 cm cintura 82 cm           Tamanho 14 anos Comprimento 96 cm cintura 79 cm          Tamanho 12 anos Comprimento 94 cm cintura 76 cm           Tamanho 10 anos Comprimento 91 cm cintura 70cm      ",
     "categoria" => "Moda"
