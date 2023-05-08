@@ -10,8 +10,7 @@ if(isset($_GET['id']))
 $id = $_GET['id'];
 
 //string com o comando slq para ser executado no db
-$sql = "DELETE FROM `produto` WHERE  `idproduto`= ? ;";
-echo $sql; 
+$sql = "DELETE FROM `produto` WHERE  `idproduto`= ? ;"; 
 
 //prepara o sql para ser executado  no banco de dados
 $comando = $conexao->prepare($sql);
@@ -21,7 +20,6 @@ $comando->bind_param("i", $id);
 
 //executa o sql - comando no banco de dados
 $comando->execute();
-
-//abre o arquivo form.php
-//header("Location: form.php");
 }
+//abre o arquivo form.php
+header("Location: form.php");
