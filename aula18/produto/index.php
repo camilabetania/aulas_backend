@@ -1,8 +1,7 @@
+<?php require_once "../controla_sessao/controla.php"; ?>
 <?php require_once "consultar_todos.php"; ?>
 <?php require_once "../template/cabecalho.php";?>
-
-
-    
+   
 <div class="container">
     <h1>Produtos</h1>
     <hr>
@@ -10,7 +9,7 @@
         <a href="form.php" class="btn btn-success">Inserir produto</a>
     </div>
 
-    <table class="table">
+    <table class="table" id="myTable">
   <thead>
     <tr>
       <th scope="col">Nome</th>
