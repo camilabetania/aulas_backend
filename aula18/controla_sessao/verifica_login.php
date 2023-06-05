@@ -38,10 +38,10 @@ if($usuario){
         header("Location: ../produto/index.php");
 
     }else{
-        echo "senha incorreta";
+        $erro_login = "senha incorreta";
     }
 }else{
-    echo "não existe usuário com o login informado";
+    $erro_login = "não existe usuário com o login informado";
 }
 
 }
