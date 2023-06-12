@@ -21,16 +21,14 @@
   <tbody>
 
     <?php foreach($vendas as $venda){ ?>
-      <tr>
-        <th scope="row"><?php echo $venda['nome'];?></th>
-        <td><?php echo $venda['preco'];?></td>
-        <td>
-          <img src="../uploads/<?php echo $venda['foto'];?>" 
-          height="30px" alt="">
-        </td>
-        <td>
-          <a href="excluir.php?id=<?php echo $venda['idvenda'];?>" class="btn btn-danger"><i class="fa-solid fa-trash"></i> Excluir</a>
-          <a href="form.php?id=<?php echo $venda['idvenda'];?>" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> Atualizar</a>
+      <th scope="row"><?php echo $venda ['id'];?></th>
+      <td><?php echo $venda ['data'];?></td>
+      <td><?php echo $venda ['valor'];?></td>
+      <td><?php echo $venda ['produto'];?></td>
+      <td><?php echo $venda ['cliente'];?></td>
+      <td>
+      <a href="excluir.php?id=<?php echo $venda ['id']; ?>" class="btn btn-danger"><i class="fa-solid fa-pen-to-square"></i>Excluir</a>
+      <a href="form.php?id=<?php echo $venda ['id']; ?>"  class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i>Atualizar</a>
         </td>
     </tr>
     <?php } ?>
