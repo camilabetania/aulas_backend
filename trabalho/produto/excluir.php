@@ -11,7 +11,7 @@ if(isset($_GET['id']))
 $id = $_GET['id'];
 
 //string com o comando slq para ser executado no db
-$sql = "DELETE FROM `venda` WHERE  `idvenda`= ? ;"; 
+$sql = "DELETE FROM `vendas` WHERE  `id`= ? ;"; 
 
 //prepara o sql para ser executado  no banco de dados
 $comando = $conexao->prepare($sql);

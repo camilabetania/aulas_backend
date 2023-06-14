@@ -9,9 +9,10 @@ $valor = $_POST["valor"];
 $produto = $_POST["produto"];
 $cliente = $_POST["cliente"];
 
+var_dump([$id,$data,$valor,$produto,$cliente ]);
+
 //string com o comando slq para ser executado no db
-$sql = "UPDATE vendas SET 
-`data`=?, `valor`=?, `produto`=?, `cliente`=? WHERE  `idvenda`=?"; 
+$sql = "UPDATE vendas SET `data`=?, `valor`=?, `produto`=?, `cliente`=? WHERE  `id`=?;"; 
 
 //prepara o sql para ser executado  no banco de dados
 $comando = $conexao->prepare($sql);

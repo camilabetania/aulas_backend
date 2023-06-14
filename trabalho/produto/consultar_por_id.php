@@ -10,7 +10,7 @@ if(isset($_GET['id']))
 $id = $_GET['id'];
 
 //string com o comando slq para ser executado no db
-$sql = "SELECT * FROM `produto` WHERE  `idproduto`= ? ;"; 
+$sql = "SELECT * FROM `vendas` WHERE  `id`= ? ;"; 
 
 //prepara o sql para ser executado  no banco de dados
 $comando = $conexao->prepare($sql);
@@ -25,6 +25,6 @@ $comando->execute();
 $resultado = $comando->get_result();
 
 //pegar a primeira linha de resultados
-$produto = $resultado->fetch_assoc();
+$venda = $resultado->fetch_assoc();
 
 }

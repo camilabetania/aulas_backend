@@ -21,14 +21,14 @@
   <tbody>
 
     <?php foreach($vendas as $venda){ ?>
-      <th scope="row"><?php echo $venda ['id'];?></th>
+      
       <td><?php echo $venda ['data'];?></td>
       <td><?php echo $venda ['valor'];?></td>
       <td><?php echo $venda ['produto'];?></td>
       <td><?php echo $venda ['cliente'];?></td>
       <td>
-      <a href="excluir.php?id=<?php echo $venda ['id']; ?>" class="btn btn-danger"><i class="fa-solid fa-pen-to-square"></i>Excluir</a>
-      <a href="form.php?id=<?php echo $venda ['id']; ?>"  class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i>Atualizar</a>
+      <a href="excluir.php?id=<?php echo $venda['id']; ?>" class="btn btn-danger"><i class="fa-solid fa-pen-to-square"></i>Excluir</a>
+      <a href="form.php?id=<?php echo $venda['id']; ?>"  class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i>Atualizar</a>
         </td>
     </tr>
     <?php } ?>

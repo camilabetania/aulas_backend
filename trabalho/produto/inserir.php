@@ -6,7 +6,7 @@ require_once "../conexao.php";
 
 //inclui o arquivo para salvar a foto do upload
 
-$id = $_POST["id"];
+
 $data = $_POST["data"];
 $valor = $_POST["valor"];
 $produto = $_POST["produto"];
@@ -20,7 +20,7 @@ VALUES (?, ?, ?, ?);";
 $comando = $conexao->prepare($sql);
 
 //adiciona os valores nos parâmetros
-$comando->bind_param("sdssi", $data, $valor, $produto, $cliente, $id);
+$comando->bind_param("sdss", $data, $valor, $produto, $cliente);
 
 //executa o sql - comando no banco de dados
 $comando->execute();
