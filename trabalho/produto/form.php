@@ -18,7 +18,7 @@
         <input type="date" name="data" id="data" value="<?php echo $venda['data'] ?? ""; ?>"><br>
         <br>
         <label for="valor">Valor</label><br>
-        <input type="number" step="0.01" name="valor" id="valor" value="<?php echo $venda['valor'] ?? "0.00"; ?>"><br>   
+        <input type="number" step="0.0" name="valor" id="valor" value="<?php echo $venda['valor'] ?? "0.00"; ?>"><br>   
         <br>
         <label for="produto">Produto</label><br>
         <textarea name="produto" id="produto"><?php echo $venda['produto'] ?? ""; ?></textarea><br>

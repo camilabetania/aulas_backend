@@ -1,7 +1,7 @@
 <hr>
 
 <footer class="bg-dark text-white text-center p-4">
-Meu Catálogo de Produtos
+Meu Catálogo de Produtos (VENDAS)
 </footer>
 
 
